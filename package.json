@@ -1,0 +1,29 @@
+{
+  "name": "jellyfin-playlist-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node --loader ts-node/esm index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzrimsek/jellyfin-playlist-builder.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzrimsek/jellyfin-playlist-builder/issues"
+  },
+  "homepage": "https://github.com/mzrimsek/jellyfin-playlist-builder#readme",
+  "dependencies": {
+    "@jellyfin/sdk": "^0.8.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "type": "module"
+}

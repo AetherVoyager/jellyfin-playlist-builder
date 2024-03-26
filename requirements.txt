@@ -1,2 +1,0 @@
-jellyfin-apiclient-python
-python-dotenv
